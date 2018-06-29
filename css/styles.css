@@ -1,0 +1,117 @@
+img {
+  width: 100%
+}
+
+body {
+  background-image: url(./../images/bg.jpg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* #header {
+  max-height: 100px;
+} */
+
+
+#navigation {
+  text-align: center;
+  color: #fff;
+}
+
+
+#navigation div {
+  background-color: red;
+  margin: 10px;
+  border-bottom: solid #848381 3px;
+  padding: 5px;
+}
+
+#main-image {
+  background: url(./../images/top-image.png) 32% 24%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  border: solid 8px #fff;
+}
+
+.top_picture {
+  position: absolute;
+  top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#cards article {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+#cards input {
+  background-color: #fff;
+  border: none;
+  color: red;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+#skateboards div {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.text {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.text *{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#tommy {
+  margin-bottom: 20px;
+}
+
+#tommy>div {
+  height: 100%;
+  border: solid 4px #fff;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#tommy img{
+  height: 100%;
+  width: 250%;
+  transform: translateX(-50%);
+}
+
+#steve {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#steve img {
+  border: solid 4px #fff;
+  width: 100%;
+}
+
+.nestedmargin {
+  margin-bottom: 20px;
+}
+
+.nestedmargin>img {
+    border: solid 4px #fff;
+}
+
+
+.card_body * {
+  padding: 5%;
+
+}
